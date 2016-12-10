@@ -12,7 +12,7 @@ class Question_model extends CI_Model {
     }
 
     public function get_qns(){
-        $query = $this->db->get('question');
+        $query = $this->db->get('question',5,0);
         return $query->result_array();
     }
 }

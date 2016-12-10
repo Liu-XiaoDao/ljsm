@@ -200,23 +200,23 @@
                     <ul id="ul_box_10" class="a_tw2_css_4 clearfix">
                         <?php
                             if (!empty($questions)){
-                                foreach ($questions as question){
+                                foreach ($questions as $question){
                          ?>
-                                    <li><a href="cjwt/article20998.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article20998.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。常见问题默认文章简介内容信息，文章简介到</p></span></li>
+                                    <li><span><b><a href="cjwt/article20998.html" title="<?php echo $question['title']; ?>"><?php echo $question['title']; ?></a></b><p style="font-size:12px;"><?php echo $question['text'];?></p></span></li>
                         <?php
                                 }
                             }else{
 
                             }
                         ?>
-                        <li><a href="cjwt/article20998.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article20998.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。常见问题默认文章简介内容信息，文章简介到</p></span></li>
-                        <li><a href="cjwt/article19936.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article19936.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。常见问题默认文章简介内容信息，文章简介到</p></span></li>
-                        <li><a href="cjwt/article18583.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article18583.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。</p></span></li>
-                        <li><a href="cjwt/article17706.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article17706.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。</p></span></li>
-                        <li><a href="cjwt/article16945.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article16945.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。</p></span></li>
-                        <li><a href="cjwt/article15674.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article15674.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。</p></span></li>
-                        <li><a href="cjwt/article14507.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article14507.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。</p></span></li>
-                        <li><a href="cjwt/article13806.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article13806.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。</p></span></li>
+
+<!--                        <li><a href="cjwt/article19936.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article19936.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。常见问题默认文章简介内容信息，文章简介到</p></span></li>-->
+<!--                        <li><a href="cjwt/article18583.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article18583.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。</p></span></li>-->
+<!--                        <li><a href="cjwt/article17706.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article17706.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。</p></span></li>-->
+<!--                        <li><a href="cjwt/article16945.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article16945.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。</p></span></li>-->
+<!--                        <li><a href="cjwt/article15674.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article15674.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。</p></span></li>-->
+<!--                        <li><a href="cjwt/article14507.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article14507.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。</p></span></li>-->
+<!--                        <li><a href="cjwt/article13806.html"><img src="sys_img/no_picture.gif" alt="常见问题默认文章标题内容信息" border="0"></a><span><b><a href="cjwt/article13806.html" title="常见问题默认文章标题内容信息">常见问题默认文章标题内容信息</a></b><p style="font-size:12px;">常见问题默认文章简介内容信息，文章简介到文章描述里进行编辑。</p></span></li>-->
                     </ul>
                 </div>
             </div>
